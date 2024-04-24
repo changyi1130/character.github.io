@@ -1,6 +1,5 @@
 html {
-    /* font-family: Consolas, '思源黑体', monospace; */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Source Han Sans SC", "Microsoft YaHei", sans-serif;
     font-size: 10px;
     margin: 0;
 }
@@ -45,6 +44,7 @@ caption {
 }
 
 td {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     text-align: center;
     padding: 8px;
@@ -53,6 +53,7 @@ td {
 }
 
 tfoot td {
+    font-family: "Source Han Sans SC", "Microsoft YaHei", sans-serif;
     font-size: 1.6rem;
     text-align: left;
     border: 0;
