@@ -1,3 +1,4 @@
+// 复制功能
 document.addEventListener('DOMContentLoaded', function () {
     // 绑定点击事件到所有类名为 'copy_cell' 的单元格
     document.querySelectorAll('.copy_cell').forEach(cell => {
@@ -13,3 +14,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// 复制动画
