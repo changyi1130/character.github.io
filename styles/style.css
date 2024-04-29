@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Wingdings";
+    src: local("Wingdings"),
+        url("../fonts/wingding.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Wingdings 21";
+    src: local("Wingdings 2"),
+        url("../fonts/WINGDNG2.TTF") format("truetype");
+}
+
 html {
     font-family: "Source Han Sans SC", "Microsoft YaHei", sans-serif;
     font-size: 10px;
@@ -68,11 +80,11 @@ tfoot td {
 }
 
 .wingdings_2 {
-    font-family: "Wingdings 2";
+    font-family: "Wingdings 21";
 }
 
 .wingdings {
-    font-family: Wingdings;
+    font-family: "Wingdings";
 }
 
 /* 复制动画 */
