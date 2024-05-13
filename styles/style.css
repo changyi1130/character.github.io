@@ -5,19 +5,20 @@
 }
 
 @font-face {
-    font-family: "Wingdings 21";
+    font-family: "Wingdings 2";
     src: local("Wingdings 2"),
         url("../fonts/WINGDNG2.TTF") format("truetype");
 }
 
 html {
-    font-family: "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+    font-family: "Microsoft YaHei", sans-serif;
     font-size: 10px;
     margin: 0;
 }
 
 body {
-    width: 900px;
+    max-width: 900px;
+    width: 95%;
     margin: 5rem auto;
     font-size: 1.6rem;
     background-color: #f2f2f2;
@@ -80,7 +81,7 @@ tfoot td {
 }
 
 .wingdings_2 {
-    font-family: "Wingdings 21";
+    font-family: "Wingdings 2";
 }
 
 .wingdings {
