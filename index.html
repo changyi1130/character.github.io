@@ -11,8 +11,8 @@
 
 <body>
     <input type="checkbox" id="toc-toggle" class="toc-toggle-checkbox">
-    <label for="toc-toggle" class="toc-toggle-button">目录</label>
-    <label for="toc-toggle" class="toc-overlay"></label>
+    <label for="toc-toggle" class="toc-toggle-button" tabindex="0" role="button" aria-expanded="false">目录</label>
+    <label for="toc-toggle" class="toc-overlay" aria-hidden="true"></label>
 
     <aside class="toc">
         <ul>
@@ -28,7 +28,7 @@
     </aside>
 
     <main class="content">
-        <h1> 特殊字符表 </h1>
+        <h1>特殊字符表</h1>
 
         <div class="note">
             <p> 单击字母可直接复制。 </p>
